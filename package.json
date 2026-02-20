@@ -1,0 +1,41 @@
+{
+  "name": "secure-digital-evidence-management",
+  "version": "1.0.0",
+  "description": "Blockchain-based Digital Evidence Management System with Chain of Custody Tracking",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:coverage": "hardhat coverage",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:localhost": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "node": "hardhat node",
+    "clean": "hardhat clean",
+    "frontend": "cd frontend && npm start",
+    "frontend:install": "cd frontend && npm install",
+    "frontend:build": "cd frontend && npm run build",
+    "dev": "npm run node",
+    "setup": "npm install && cd frontend && npm install && cd .."
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "evidence-management",
+    "chain-of-custody",
+    "smart-contracts",
+    "hardhat",
+    "solidity"
+  ],
+  "author": "Group 4035_4162_4036",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.1",
+    "hardhat": "^2.19.4",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1"
+  }
+}
