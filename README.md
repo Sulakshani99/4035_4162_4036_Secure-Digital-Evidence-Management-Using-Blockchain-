@@ -712,9 +712,9 @@ This project demonstrates:
 ## 👥 Team Members
 
 **Group 4035_4162_4036**
-- Member 1: [4035]
-- Member 2: [4162]
-- Member 3: [4036]
+- Member 1: [EG/2020/4035] Kumari D.P.S.T.
+- Member 2: [EG/2020/4162] Rathnayake R.M.B.T.M.
+- Member 3: [EG/2020/4036] Kumari H.M.M.S.
 
 ---
 
