@@ -38,8 +38,8 @@ contract EvidenceManagement is AccessControl
         uint256 id;
         string caseId;
         string description;
-        string evidenceType; // Physical, Digital, Document, etc.
-        string ipfsHash; // IPFS hash for the evidence file
+        string evidenceType;    // Physical, Digital, Document, etc.
+        string ipfsHash;        // IPFS hash for the evidence file
         address collectedBy;
         uint256 collectedAt;
         EvidenceStatus status;
